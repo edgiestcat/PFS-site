@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title> 
+     Google Classroom 
+    </title> 
+
+    <!-- add icon link -->
+    <link rel = "icon" href =  
+"https://upload.wikimedia.org/wikipedia/commons/5/59/Google_Classroom_Logo.png" 
+    type = "image/x-icon"> 
+
+
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+		></script>
+
+		<link rel="stylesheet" href="/style/master.css" />
+		<link rel="stylesheet" href="/style/index.css" />
+	</head>
+
+	<body>
+		<section>
+			<input
+				id="omnibox"
+				type="text"
+				placeholder="Type in a search or url here"
+				autocomplete="off"
+				autofocus
+			/>
+			<div id="box" hidden></div>
+		</section>
+		<navbar>
+			<a href="options.html"><ion-icon name="cog-outline"></ion-icon></a>
+      <a href="list.html"><ion-icon name="list-outline"></ion-icon></a>
+			<a href="https://discord.gg/HZBaJJrYBB"
+      ><ion-icon name="logo-discord"></ion-icon>
+      <a href="list.html"><ion-icon name="car-sport-outline"></ion-icon></a>
+        
+			</a>
+		</navbar>
+    
+
+		<script type="module" src="/script/sdk/proxyHref.js"></script>
+		<script type="module" src="/script/setOptions.js"></script>
+
+		<script type="module" src="/script/index.js"></script>
+	</body>
+</html>
